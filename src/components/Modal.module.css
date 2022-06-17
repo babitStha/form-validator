@@ -1,0 +1,32 @@
+.backdrop{
+    background-color: #193e47c5;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.modal{
+    text-align: center;
+    background-color: antiquewhite;
+    position: fixed;
+    width: 500px;
+    padding:50px;
+    top:20%;
+    left:50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #112930;
+}
+.modal-body{
+    font-size: 30px;
+    font-family: monospace;
+}
+.modal-body button {
+    margin: 15px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #232d64;
+    border-radius: 5px;
+}
